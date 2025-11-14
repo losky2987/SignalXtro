@@ -1,0 +1,11 @@
+[package]
+name = "SignalXtro"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+name = "libSignalXtro"
+path = "src/lib.rs"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
